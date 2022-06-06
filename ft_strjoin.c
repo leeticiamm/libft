@@ -6,7 +6,7 @@
 /*   By: lmagalha <lmagalha@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 15:26:40 by lmagalha          #+#    #+#             */
-/*   Updated: 2022/06/01 12:24:14 by lmagalha         ###   ########.fr       */
+/*   Updated: 2022/06/03 15:37:30 by lmagalha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
-	int	len;
-	char *str;
+	int		len;
+	char	*str;
 
 	if ((!s1) || (!s2))
 		return (0);

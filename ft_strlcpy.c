@@ -6,7 +6,7 @@
 /*   By: lmagalha <lmagalha@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/16 14:54:59 by lmagalha          #+#    #+#             */
-/*   Updated: 2022/05/26 11:27:15 by lmagalha         ###   ########.fr       */
+/*   Updated: 2022/06/03 15:37:56 by lmagalha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	dst[dstsize - 1] = '\0';
 	return (ft_strlen(src));
 }
-

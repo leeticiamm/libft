@@ -6,7 +6,7 @@
 /*   By: lmagalha <lmagalha@student.42.rio>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/17 12:04:37 by lmagalha          #+#    #+#             */
-/*   Updated: 2022/05/23 11:00:51 by lmagalha         ###   ########.fr       */
+/*   Updated: 2022/06/03 15:39:36 by lmagalha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strrchr(const char *s, int c)
 {
 	char	*str;
-	int	i;
+	int		i;
 
 	str = (char *)s;
 	i = ft_strlen(str);
